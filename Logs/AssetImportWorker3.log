@@ -1,0 +1,707 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 15742 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/awill/Documents/GitHub/BoomerMan2
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+56741
+Successfully changed project path to: C:/Users/awill/Documents/GitHub/BoomerMan2
+C:/Users/awill/Documents/GitHub/BoomerMan2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20140] Host "[IP] 10.100.79.58 [Port] 0 [Flags] 2 [Guid] 3034855091 [EditorId] 3034855091 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TNVEQSD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20140] Host "[IP] 10.100.79.58 [Port] 0 [Flags] 2 [Guid] 3034855091 [EditorId] 3034855091 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TNVEQSD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 71.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/awill/Documents/GitHub/BoomerMan2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7871 MB
+    Driver:   31.0.12044.59001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024775 seconds.
+- Loaded All Assemblies, in  0.882 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.431 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.743 seconds
+Refreshing native plugins compatible for Editor in 25.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.967 seconds
+Domain Reload Profiling: 2700ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1246ms)
+		LoadAssemblies (1189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (968ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 47.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4186 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (317.7 KB). Loaded Objects now: 4641.
+Memory consumption went from 146.7 MB to 146.4 MB.
+Total: 6.923200 ms (FindLiveObjects: 0.442000 ms CreateObjectMapping: 0.154900 ms MarkObjects: 5.754200 ms  DeleteObjects: 0.565300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 986061.126574 seconds.
+  path: Assets/Misc
+  artifactKey: Guid(50606151333938044bf5b3676c9f50bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc using Guid(50606151333938044bf5b3676c9f50bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b0bd0837b5d3e5a1662aa32d5c31c4') in 0.002446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.501410 seconds.
+  path: Assets/Misc/Coin
+  artifactKey: Guid(3996348e24ef5eb479848819348e2ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin using Guid(3996348e24ef5eb479848819348e2ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff99a737299a359e075f373b6162f072') in 0.000795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.120000 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba3b837b9084beae65cfbda0bf88e56') in 0.126405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.217753 seconds.
+  path: Assets/Misc/Coin/CoinBehaviour.cs
+  artifactKey: Guid(edebb33b610fd0f4591504fc3b9aabd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/CoinBehaviour.cs using Guid(edebb33b610fd0f4591504fc3b9aabd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28f68d5a2094d7435a2ddf358d24d1e') in 0.000815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.067218 seconds.
+  path: Assets/Misc/Key/Key.prefab
+  artifactKey: Guid(8459364db7e10d143b33d6caae659681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Key/Key.prefab using Guid(8459364db7e10d143b33d6caae659681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3134e6b64559e5fc841d48c8fec038ca') in 0.004276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.135764 seconds.
+  path: Assets/Misc/Key/KeyBehaviour.cs
+  artifactKey: Guid(5e319f353141c554ca62eb83a4e79b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Key/KeyBehaviour.cs using Guid(5e319f353141c554ca62eb83a4e79b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1078e0be859610715c80544d83c70468') in 0.000505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.877657 seconds.
+  path: Assets/Projectiles/Bomb
+  artifactKey: Guid(92372ef181bc88d49a023a0ea12b913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Projectiles/Bomb using Guid(92372ef181bc88d49a023a0ea12b913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b1d44ff5fb2fde07d7a1fcf546d4aa') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075060 seconds.
+  path: Assets/Projectiles/Bomb/Bomb.prefab
+  artifactKey: Guid(c989c00f3a5a9984b86b6d191a2146fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Projectiles/Bomb/Bomb.prefab using Guid(c989c00f3a5a9984b86b6d191a2146fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9981b743091d63c78f46f7d0ce81e1') in 0.003356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 17843.293891 seconds.
+  path: Assets/Misc/Coin/Coin ss.png
+  artifactKey: Guid(7e442ebae912bb244a932708f6e60ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin ss.png using Guid(7e442ebae912bb244a932708f6e60ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69aeb6646c30ccb0d35500652938b13') in 0.329483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.527312 seconds.
+  path: Assets/Misc/Coin/Coin ss.png
+  artifactKey: Guid(7e442ebae912bb244a932708f6e60ded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Misc/Coin/Coin ss.png using Guid(7e442ebae912bb244a932708f6e60ded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27900610f65697ac8ea3a2c28d12d72e') in 0.400242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.169481 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a5cb9072ff37150d540af9833fd2c9') in 0.027294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.908443 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44a303788c02b60ad54c7fc95ff19980') in 0.069148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.218012 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5380271a93ea8d1a42a742d2f2380a') in 0.030338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.909294 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bc42dacc40348f3bee3ce3412ad0f4c') in 0.038420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.547811 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463ff9976d8c65d31ae02b44febe6e36') in 0.031321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.889235 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcc4b7a35acaea50609428c595184ee1') in 0.045248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 75.589032 seconds.
+  path: Assets/Misc/Coin/Coin ss.png
+  artifactKey: Guid(7e442ebae912bb244a932708f6e60ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin ss.png using Guid(7e442ebae912bb244a932708f6e60ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661914ceac4406efdfd3676714d35fa0') in 0.033543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.576097 seconds.
+  path: Assets/Misc/Coin/Coin ss.png
+  artifactKey: Guid(7e442ebae912bb244a932708f6e60ded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Misc/Coin/Coin ss.png using Guid(7e442ebae912bb244a932708f6e60ded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f5e9fe63cd7f6c372e68461dbe8e584') in 0.078530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.274044 seconds.
+  path: Assets/Misc/Coin/Coin ss.png
+  artifactKey: Guid(7e442ebae912bb244a932708f6e60ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin ss.png using Guid(7e442ebae912bb244a932708f6e60ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c237cb752645fde01fa95e19f22ea76') in 0.085093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.757557 seconds.
+  path: Assets/Misc/Coin/Coin ss.png
+  artifactKey: Guid(7e442ebae912bb244a932708f6e60ded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Misc/Coin/Coin ss.png using Guid(7e442ebae912bb244a932708f6e60ded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99fd89e995b89cfe12f62c2faefc9ead') in 0.098458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 71.141587 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7b514cb0ce52436b40c3502ca153e9') in 0.029471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.879765 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '216e99e6d0c87cf44178728cd8c35b93') in 0.038302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 10.271541 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62831eae00054cfe3a9527bab09fdfb6') in 0.037677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.230 seconds
+Refreshing native plugins compatible for Editor in 35.97 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.116 seconds
+Domain Reload Profiling: 12342ms
+	BeginReloadAssembly (639ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (52ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (235ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (1469ms)
+		LoadAssemblies (1729ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (10116ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 37.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (288.4 KB). Loaded Objects now: 4675.
+Memory consumption went from 151.3 MB to 151.0 MB.
+Total: 5.571700 ms (FindLiveObjects: 0.466700 ms CreateObjectMapping: 0.194800 ms MarkObjects: 4.547900 ms  DeleteObjects: 0.359600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.641581 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2736d7a97a6b4d725d467eacc16c4fc') in 0.120645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 100.450003 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cd8e82d0005e71684170d2db835e4e') in 0.024585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 466.502787 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2aea7c4f0cd6846cb20fc9716ec4c1') in 0.039064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.751837 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f4ff60764688fb5a872b3eece55ab8') in 0.027791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.756 seconds
+Refreshing native plugins compatible for Editor in 55.04 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.828 seconds
+Domain Reload Profiling: 7575ms
+	BeginReloadAssembly (373ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1201ms)
+		LoadAssemblies (1415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (5829ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 21.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (288.4 KB). Loaded Objects now: 4691.
+Memory consumption went from 153.2 MB to 153.0 MB.
+Total: 3.395600 ms (FindLiveObjects: 0.358000 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.694800 ms  DeleteObjects: 0.223600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 202.560463 seconds.
+  path: Assets/Misc/Coin/Coin.prefab
+  artifactKey: Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Coin/Coin.prefab using Guid(4499228f7f983fe4982220771ee49997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c5885a218a18905f0d29e30cf02dbc') in 0.165754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 25.165302 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(b40d83d2617c6bd49b63f8f6735872f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(b40d83d2617c6bd49b63f8f6735872f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45da79f00fa6f3b600cfc7e54fd9823e') in 0.001543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.286527 seconds.
+  path: Assets/Sprites/Coin_Sprites
+  artifactKey: Guid(e3709ba99fbf9524aa9b7db42e34e95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites using Guid(e3709ba99fbf9524aa9b7db42e34e95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c422d1bd2d5d649ff7fb356187b7b0') in 0.001314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.737786 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle00.png
+  artifactKey: Guid(f04ecad5c49b00647a335b8d2b20a6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle00.png using Guid(f04ecad5c49b00647a335b8d2b20a6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b29eafd23354a16c4eb811231d20f85') in 0.131453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007596 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle10.png
+  artifactKey: Guid(a8d7f556931974e4f814ece4b3b31368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle10.png using Guid(a8d7f556931974e4f814ece4b3b31368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ec808b5c8143eb070e2af0ddde2c4d') in 0.140191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle04.png
+  artifactKey: Guid(5db8414dae0486d42aa774e0c6d32284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle04.png using Guid(5db8414dae0486d42aa774e0c6d32284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1dc6910654d2176029d6ebadfc66cd') in 0.092087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001662 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle07.png
+  artifactKey: Guid(3f2bbf8999771a34e9db42cda59c87e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle07.png using Guid(3f2bbf8999771a34e9db42cda59c87e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a6404179d77ca2966f3ce7f9a4747d') in 0.165311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle14.png
+  artifactKey: Guid(772f4866c81162046b86d1c4c04e1e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle14.png using Guid(772f4866c81162046b86d1c4c04e1e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6ad3924fd28d6dc8f51b280584324a') in 0.126774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle02.png
+  artifactKey: Guid(4c2b8e86f6eb0bd4f986c9f3afaad4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle02.png using Guid(4c2b8e86f6eb0bd4f986c9f3afaad4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00e1b2db2625796a9b671f9542a823a') in 0.081993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle06.png
+  artifactKey: Guid(33eae9434ce88b14eb61603bb0f1a376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle06.png using Guid(33eae9434ce88b14eb61603bb0f1a376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6e9bfa94f4605948a7a2509800ebd0') in 0.056676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle03.png
+  artifactKey: Guid(000aeb750f1572a419d2ff8c99d35602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle03.png using Guid(000aeb750f1572a419d2ff8c99d35602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb51bcb986760d4aaa2c871ee5e497b') in 0.127416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle05.png
+  artifactKey: Guid(cf04435cc2950d540855246a5ac7b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle05.png using Guid(cf04435cc2950d540855246a5ac7b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a7db0466297a2876ed884f5e5caf28') in 0.078309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.710121 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle
+  artifactKey: Guid(682d20593f8af6c4f95fbc2a90b1c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle using Guid(682d20593f8af6c4f95fbc2a90b1c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ec9abb6895b101aa0d47f37e787ea8') in 0.001362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.199599 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle/coin_idle03.png
+  artifactKey: Guid(d01a7630e75f0b04895078eb4651f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle/coin_idle03.png using Guid(d01a7630e75f0b04895078eb4651f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbdb048b4b37bdcac1409a3d135f7c7') in 0.118455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle/coin_idle12.png
+  artifactKey: Guid(d0f1885c2d3f2ae45a63c265bdc621f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle/coin_idle12.png using Guid(d0f1885c2d3f2ae45a63c265bdc621f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5a474bed6924eb5cf77692147a4c66') in 0.122012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle/coin_idle13.png
+  artifactKey: Guid(9647b9df9d337884fb2f251ef791359e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle/coin_idle13.png using Guid(9647b9df9d337884fb2f251ef791359e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4cc51d6c5cb8c0958c064eca63ac9c') in 0.051055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle/coin_idle10.png
+  artifactKey: Guid(7c77f75734147e44fb4cb4ae89200d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle/coin_idle10.png using Guid(7c77f75734147e44fb4cb4ae89200d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac2985b23b06267eded03e97adea328') in 0.087177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle/coin_idle11.png
+  artifactKey: Guid(266fb912f2a663648984ecb3fee1e96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle/coin_idle11.png using Guid(266fb912f2a663648984ecb3fee1e96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc55f06cca262f16206963766f990dae') in 0.061831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 27.491159 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle03 1.png
+  artifactKey: Guid(82037ca6b2779ee42b95d5f09e0e7fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle03 1.png using Guid(82037ca6b2779ee42b95d5f09e0e7fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302f82e923457fd4153b64169262ec5c') in 0.045270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/Coin_Sprites/coin_idle08 1.png
+  artifactKey: Guid(cee2ce2f5a0b6d94a9c0c56e26780f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin_Sprites/coin_idle08 1.png using Guid(cee2ce2f5a0b6d94a9c0c56e26780f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024479adc33f40ec271beda3d3afb642') in 0.046714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
