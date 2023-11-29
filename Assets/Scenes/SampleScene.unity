@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4562fe61a193f234cb2ff5dcda07af12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 1262914192}
 --- !u!4 &307951935
 Transform:
   m_ObjectHideFlags: 0
@@ -395,6 +396,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4499228f7f983fe4982220771ee49997, type: 3}
+--- !u!1 &1262914192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2576948701769259455, guid: b113307ac1819de42937c36f280f1f14, type: 3}
+  m_PrefabInstance: {fileID: 624786239}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1270024590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -466,7 +472,7 @@ GameObject:
   - component: {fileID: 1560109303}
   m_Layer: 6
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -479,7 +485,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560109299}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
