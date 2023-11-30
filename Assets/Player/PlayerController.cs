@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     private float _speed = 7;
     private float _verticalSpeed = 7;
     private bool IsGrounded;
-    public Animator animator; 
     public SpriteRenderer spriteRenderer; 
     
     [SerializeField] private GameObject projectile;
@@ -49,33 +48,23 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-<<<<<<< HEAD
-        rb.velocity = new Vector2(HorizontalInput * Speed, rb.velocity.y);
+        rb.velocity = new Vector2(_horizontalInput * _speed, rb.velocity.y);
 
         checkXDirection();
 
         //begin walk animation
         animator.SetFloat("speed", MathF.Abs(rb.velocity.x));
-=======
-        rb.velocity = new Vector2(_horizontalInput * _speed, rb.velocity.y);
->>>>>>> 17ace31e04e9d14eba9605f8670e86bbdd2aa63e
     }
 
     private void Jump()
     {
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
-<<<<<<< HEAD
-            rb.velocity = new Vector2(rb.velocity.x, verticalSpeed);
+            rb.velocity = new Vector2(rb.velocity.x, _verticalSpeed);
             checkXDirection();
             animator.SetBool("isJump", true);
             animator.SetBool("isGrounded", false);
-=======
             
-            rb.velocity = new Vector2(rb.velocity.x, _verticalSpeed);
-            animator.SetBool("Jump", true);
-            
->>>>>>> 17ace31e04e9d14eba9605f8670e86bbdd2aa63e
         }
         else if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
@@ -95,7 +84,6 @@ public class PlayerController : MonoBehaviour
         return Physics2D.OverlapCircle(tf.position, 0.2f, groundLayer);
     }
     
-<<<<<<< HEAD
     private void checkXDirection()
     {
          //flip direction boomerman is facing based on input
@@ -110,7 +98,6 @@ public class PlayerController : MonoBehaviour
     }
 
     //to do: death(), nake sure animator.isDead set to true
-=======
     
     private void ThrowBomb()
     {
@@ -129,5 +116,4 @@ public class PlayerController : MonoBehaviour
         }
     
     }
->>>>>>> 17ace31e04e9d14eba9605f8670e86bbdd2aa63e
 }
