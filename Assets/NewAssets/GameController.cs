@@ -20,6 +20,8 @@ public class GameController : MonoBehaviour
     private bool _playerAtDoor;
 
     public int _coinsCollected;
+    public AudioSource coinSound;
+    //public AudioSource ballKillSound;
 
     private void Start()
     {
@@ -57,6 +59,7 @@ public class GameController : MonoBehaviour
     
     private void UpdateCollectedCoins()
     {
+        coinSound.Play();
         coinSO.coin += 1;
         _coinCountTMP.text = "x " + coinSO.coin;
     }

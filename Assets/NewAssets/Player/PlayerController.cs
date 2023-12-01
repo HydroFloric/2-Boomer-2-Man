@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
     {
         if(animator.GetBool("isDead") == true)
         {
-           
             this._speed = 0; 
             return;
         }
