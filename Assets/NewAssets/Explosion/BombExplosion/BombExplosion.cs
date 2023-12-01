@@ -19,7 +19,7 @@ public class BombExplosion : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("need to implement something to do with the BombExplosion.cs!!!");
+        //Debug.Log("need to implement something to do with the BombExplosion.cs!!!");
         if (other.CompareTag("Player"))
         {
 

@@ -18,7 +18,6 @@
 */[Bb]uilds/
 */[Ll]ogs/
 */[Uu]ser[Ss]ettings/
->>>>>>> 17ace31e04e9d14eba9605f8670e86bbdd2aa63e:.gitignore
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -81,7 +80,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Library/
-ProjectSettings/
 Temp/
 UserSettings/EditorUserSettings.asset
 UserSettings/
