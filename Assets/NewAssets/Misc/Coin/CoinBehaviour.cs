@@ -6,13 +6,19 @@ using System;
 public class CoinBehaviour : MonoBehaviour
 {
     private float _runningTime;
+    private float startHeight;
     public bool isStatic = false; //Whether or not the coins move up and down
+    void Start()
+    {
+        startHeight = transform.localPosition.y;
+    }
     void Update()
     {
         if (!isStatic)
         {
             _runningTime += Time.deltaTime;
-            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y * (float)0.75 * Math.Abs(Mathf.Sin(_runningTime)) + 0.25f, 0);
+            var toY = (float)0.75 * Math.Abs(Mathf.Sin(_runningTime * 2)) + startHeight;
+            transform.localPosition = new Vector3(transform.localPosition.x, toY, 0);
         }
     }
     

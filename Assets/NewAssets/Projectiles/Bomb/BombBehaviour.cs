@@ -34,7 +34,7 @@ public class BombBehaviour : MonoBehaviour
                 this.GetComponent<Rigidbody2D>().gravityScale = 0;
                 this.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             }
-            else if (other.CompareTag("Wall") || other.CompareTag("Enemy") || other.CompareTag("BreakableObject"))
+            else if (other.CompareTag("Enemy") || other.CompareTag("BreakableObject"))
             {
                 Explode();
             }

@@ -6,9 +6,12 @@ namespace ModularOptions {
 	/// </summary>
 	[AddComponentMenu("Modular Options/Misc/Disable On Start")]
 	public class DisableOnStart : MonoBehaviour {
-
-		void Start(){
+        [SerializeField] private intSO coins;
+        void Start(){
+			coins.coin = 0;
 			gameObject.SetActive(false);
-		}
+			
+
+        }
 	}
 }

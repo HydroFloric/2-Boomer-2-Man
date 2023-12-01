@@ -1486,6 +1486,10 @@ PrefabInstance:
       propertyPath: m_VerticalAlignment
       value: 8192
       objectReference: {fileID: 0}
+    - target: {fileID: 1328090521624186749, guid: c03a0aef2eb16d546bb7b21dd8b46d01, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1415908126935657877, guid: c03a0aef2eb16d546bb7b21dd8b46d01, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2026,6 +2030,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7900569410934770944, guid: c03a0aef2eb16d546bb7b21dd8b46d01, type: 3}
+      propertyPath: coins
+      value: 
+      objectReference: {fileID: 11400000, guid: 92b19a82744144f4fb1d8f44ca80c31d, type: 2}
     - target: {fileID: 7906609566121119122, guid: c03a0aef2eb16d546bb7b21dd8b46d01, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
