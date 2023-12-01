@@ -6,29 +6,59 @@ using UnityEngine;
 public class BombBehaviour : MonoBehaviour
 {
     private float _timerToExplode = 3.0f;
+    //[SerializeField] private GameObject Explosion;
+    [SerializeField] private ParticleSystem explosionParticles;
     [SerializeField] private GameObject Explosion;
+    private bool isExploding = false;
+    public Animator animator;
+
     void Update()
     {
-        _timerToExplode -= Time.deltaTime;
-        if (_timerToExplode <= 0)
+        if (!isExploding)
         {
-            Destroy(gameObject);
-            Instantiate(Explosion, gameObject.GetComponent<Transform>().position, Quaternion.identity);
+            _timerToExplode -= Time.deltaTime;
+
+            if (_timerToExplode <= 0)
+            {
+                StartExplosion();
+            }
         }
     }
-    
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Ground"))
+        if (!isExploding)
         {
-            this.GetComponent<Rigidbody2D>().gravityScale = 0;
-            this.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        }
-        
-        if (other.CompareTag("Wall"))
-        {
-            Instantiate(Explosion, gameObject.GetComponent<Transform>().position, Quaternion.identity);
-            Destroy(gameObject);
+            if (other.CompareTag("Ground"))
+            {
+                this.GetComponent<Rigidbody2D>().gravityScale = 0;
+                this.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            }
+            else if (other.CompareTag("Wall") || other.CompareTag("Enemy"))
+            {
+                Explode();
+            }
         }
     }
+
+    void StartExplosion()
+    {
+        isExploding = true;
+        animator.SetTrigger("explodeNow"); //control explosion animation
+
+        //explodes after animation elapsed once
+        Invoke("Explode", 1.10f);
+    }
+
+    void Explode()
+    {
+        Instantiate(Explosion, gameObject.GetComponent<Transform>().position, Quaternion.identity);
+        //Instantiate(Explosion, transform.position, Quaternion.identity);
+        Instantiate(explosionParticles, gameObject.GetComponent<Transform>().position, Quaternion.identity);
+        explosionParticles.transform.position = transform.position;
+        explosionParticles.Play(); // Start the particle system
+
+        Destroy(gameObject);
+    }
+    
 }

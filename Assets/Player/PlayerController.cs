@@ -10,30 +10,33 @@ public class PlayerController : MonoBehaviour
     private float _speed = 7;
     private float _verticalSpeed = 7;
     private bool IsGrounded;
-    public SpriteRenderer spriteRenderer; 
     
+    [SerializeField] private Transform projectileSocket;
     [SerializeField] private GameObject projectile;
     private Rigidbody2D _projectileRb;
     private GameObject _currentProjectile;
-    
-    
-    [SerializeField] private Transform projectileSocket;
     
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform tf;
     [SerializeField] private LayerMask groundLayer;
 
-    [SerializeField] private Animator animator; 
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer sr;
     
     void Update()
     {
         _horizontalInput = Input.GetAxisRaw("Horizontal");
         
-        animator.SetFloat("GroundSpeed", Mathf.Abs(rb.velocity.x));
+        animator.SetFloat("speed", Mathf.Abs(rb.velocity.x));
+        if (isGrounded())
+        {
+            animator.SetBool("isGrounded", true);
+        }
+        else
+        {
+            animator.SetBool("isGrounded", false);}
         
-        if (isGrounded() && animator.GetBool("Falling")) {animator.SetBool("Falling", false);}
-        if (rb.velocity.y < -0.5f) animator.SetBool("Falling", true);
-        if (rb.velocity.y <= 0 && animator.GetBool("Jump")) animator.SetBool("Jump", false);
+        if (rb.velocity.y <= 0 && animator.GetBool("isJump")) animator.SetBool("isJump", false);
 
         
         Jump();
@@ -49,32 +52,30 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         rb.velocity = new Vector2(_horizontalInput * _speed, rb.velocity.y);
-
-        checkXDirection();
-
-        //begin walk animation
-        animator.SetFloat("speed", MathF.Abs(rb.velocity.x));
+        if (_horizontalInput < 0)
+        {
+            sr.flipX = false;
+        }
+        else
+        {
+            sr.flipX = true;
+        }
     }
 
     private void Jump()
     {
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
+            
             rb.velocity = new Vector2(rb.velocity.x, _verticalSpeed);
-            checkXDirection();
             animator.SetBool("isJump", true);
-            animator.SetBool("isGrounded", false);
             
         }
-        else if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
 
-        }
-        else
-        {
-            animator.SetBool("isJump", false);
-            animator.SetBool("isGrounded", true);
         }
         
     }
@@ -84,20 +85,6 @@ public class PlayerController : MonoBehaviour
         return Physics2D.OverlapCircle(tf.position, 0.2f, groundLayer);
     }
     
-    private void checkXDirection()
-    {
-         //flip direction boomerman is facing based on input
-        if(rb.velocity.x > 0) 
-        {
-            spriteRenderer.flipX = true;
-        }
-        else if(rb.velocity.x < 0) 
-        {
-            spriteRenderer.flipX = false;
-        }
-    }
-
-    //to do: death(), nake sure animator.isDead set to true
     
     private void ThrowBomb()
     {

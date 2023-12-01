@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        _life = 3;
+        _life = 1;
         _coinsCollected = 0;
         Player.GetComponent<Animator>().SetBool("IsDead", false);
     }
@@ -37,7 +37,7 @@ public class GameController : MonoBehaviour
         _life -= 1;
         if (_life <= 0)
         {
-            Player.GetComponent<Animator>().SetBool("IsDead", true);
+            Player.GetComponent<Animator>().SetBool("isDead", true);
         }
         
     }
