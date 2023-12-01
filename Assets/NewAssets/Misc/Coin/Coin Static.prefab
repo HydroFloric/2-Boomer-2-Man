@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9098922063042230510}
   - component: {fileID: 439364407401636257}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Coin Static
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edebb33b610fd0f4591504fc3b9aabd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isStatic: 0
+  isStatic: 1
 --- !u!212 &9098922063042230510
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -133,7 +133,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: f04ecad5c49b00647a335b8d2b20a6e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

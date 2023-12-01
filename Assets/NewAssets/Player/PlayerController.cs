@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     private float _horizontalInput;
     private float _speed = 7;
     private float _verticalSpeed = 7;
-    private bool IsGrounded;
+    //private bool isGrounded = false;
     
     [SerializeField] private Transform projectileSocket;
     [SerializeField] private GameObject projectile;

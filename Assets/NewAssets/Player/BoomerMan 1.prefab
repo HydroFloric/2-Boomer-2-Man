@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6157976513922412216}
   - component: {fileID: 3020238679439557451}
   - component: {fileID: 4744268204881677991}
-  - component: {fileID: 3921569589098664670}
+  - component: {fileID: 8625771970644194872}
   m_Layer: 6
   m_Name: BoomerMan 1
   m_TagString: Player
@@ -64,7 +64,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &6157976513922412216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,8 +159,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!70 &3921569589098664670
-CapsuleCollider2D:
+--- !u!61 &8625771970644194872
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -191,9 +191,19 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.64, y: 0.64}
-  m_Direction: 0
+  m_Offset: {x: -0.003651023, y: -0.036511242}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.39172435, y: 0.5596756}
+  m_EdgeRadius: 0
 --- !u!1 &7614460301681788649
 GameObject:
   m_ObjectHideFlags: 0

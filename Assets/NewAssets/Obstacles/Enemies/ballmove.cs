@@ -20,7 +20,7 @@ public class AutoReverseBall : MonoBehaviour
 
     void Start()
     {
-         spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         MoveBall();
     }
@@ -28,45 +28,45 @@ public class AutoReverseBall : MonoBehaviour
     void Update()
     {
         /// logic for timed turning
-    reverseTimer += Time.deltaTime;
-    if (reverseTimer >= reverseInterval)
-    {
-        ReverseDirection();
-    }
-
-    // logic for turning after stopping
-    if (Mathf.Abs(rb.velocity.x) < stopThreshold)
-    {
-        if (!isStopping)
+        reverseTimer += Time.deltaTime;
+        if (reverseTimer >= reverseInterval)
         {
-            isStopping = true;
-            stopTimer = 0;
+            ReverseDirection();
+        }
+
+        // logic for turning after stopping
+        if (Mathf.Abs(rb.velocity.x) < stopThreshold)
+        {
+            if (!isStopping)
+            {
+                isStopping = true;
+                stopTimer = 0;
+            }
+            else
+            {
+                stopTimer += Time.deltaTime;
+                if (stopTimer >= stopReverseTime)
+                {
+                    ReverseDirection();
+                    isStopping = false;
+                }
+            }
         }
         else
         {
-            stopTimer += Time.deltaTime;
-            if (stopTimer >= stopReverseTime)
-            {
-                ReverseDirection();
-                isStopping = false;
-            }
+            isStopping = false;
+        }
+    
+        // update the image based on the direction of movement
+        if (direction < 0)
+        {
+            spriteRenderer.sprite = leftSprite;
+        }
+        else if (direction > 0)
+        {
+            spriteRenderer.sprite = rightSprite;
         }
     }
-    else
-    {
-        isStopping = false;
-    }
-    
-    // update the image based on the direction of movement
-    if (direction < 0)
-    {
-        spriteRenderer.sprite = leftSprite;
-    }
-    else if (direction > 0)
-    {
-        spriteRenderer.sprite = rightSprite;
-    }
-}
     
 
     private void MoveBall()
@@ -77,6 +77,7 @@ public class AutoReverseBall : MonoBehaviour
     private void ReverseDirection()
     {
         direction *= -1;
-    reverseTimer = 0;
-    MoveBall();
-    }}
+        reverseTimer = 0;
+        MoveBall();
+    }
+}

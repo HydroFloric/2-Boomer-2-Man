@@ -15,10 +15,11 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject coinCountTMP;
     private TextMeshProUGUI _coinCountTMP;
     
-    private int _coinsCollected;
     private int _life;
     private bool _keyCollected;
     private bool _playerAtDoor;
+
+    public int _coinsCollected;
 
     private void Start()
     {
